@@ -1,0 +1,19 @@
+{
+  "name": "axios-cucumber-ovo",
+  "version": "1",
+  "description": "cucumber and api testing using axios ",
+  "author": "Ditmir H",
+  "scripts": {
+    "test": "npx cucumber-js features/ -r steps/ -f @cucumber/pretty-formatter -f json:report/cucumber_report.json",
+    "report": "node generateReport.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.2.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "axios": "^0.19.0",
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.0.0"
+  }
+}
