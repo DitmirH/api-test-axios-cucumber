@@ -17,13 +17,13 @@ Node v12+
 npm install
 ```
 
-## Run tests 
+### Run tests 
 
 ```
 npm test
 ```
 
-## Get report
+### Get report
 
 ```
 npm run report
